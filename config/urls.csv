@@ -1,0 +1,5 @@
+url,name,check_frequency,notification
+https://example.com/page1,メインページ,5,true
+https://example.com/page2,サブページ,10,true
+https://example.com/blog,ブログページ,60,false
+https://example.com/contact,お問い合わせページ,1440,true 

@@ -1,0 +1,12 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+playwright==1.39.0
+loguru==0.7.0
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
+python-dotenv==1.0.0
+lxml==4.9.3
+apscheduler==3.10.1
+pymsteams==0.2.2
+# プロジェクトの依存関係パッケージのバージョンは固定する

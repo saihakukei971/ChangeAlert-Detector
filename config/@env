@@ -1,0 +1,19 @@
+# SMTP設定
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+EMAIL_FROM=your-email@gmail.com
+EMAIL_RECIPIENTS=admin@example.com,manager@example.com
+
+# Slack設定
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
+SLACK_CHANNEL=#website-monitoring
+SLACK_USERNAME=WebMonitor Bot
+
+# プロキシ設定 (必要な場合)
+HTTP_PROXY=
+HTTPS_PROXY=
+
+# ユーザーエージェント
+USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36

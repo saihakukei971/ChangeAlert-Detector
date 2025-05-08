@@ -1,0 +1,114 @@
+[
+  {
+    "timestamp": "2025-05-08 04:00:01",
+    "level": "INFO",
+    "message": "Web Monitor initialized",
+    "module": "monitor",
+    "function": "initialize",
+    "line": 32
+  },
+  {
+    "timestamp": "2025-05-08 04:00:02",
+    "level": "DEBUG",
+    "message": "Configuration loaded: {'monitoring': {'interval': '5', 'start_date': '2025-05-01', 'end_date': '2025-12-31'}, 'notifications': {'email': true, 'slack': false, 'diff_only': true, 'recipients': ['admin@example.com']}, ...}",
+    "module": "utils",
+    "function": "load_config",
+    "line": 25
+  },
+  {
+    "timestamp": "2025-05-08 04:00:03",
+    "level": "DEBUG",
+    "message": "Loaded 4 URLs for monitoring",
+    "module": "utils",
+    "function": "load_urls",
+    "line": 44
+  },
+  {
+    "timestamp": "2025-05-08 04:00:05",
+    "level": "INFO",
+    "message": "Monitoring URL: https://example.com/page1",
+    "module": "monitor",
+    "function": "monitor_url",
+    "line": 150
+  },
+  {
+    "timestamp": "2025-05-08 04:00:10",
+    "level": "DEBUG",
+    "message": "Generated hash: a1b2c3d4e5...",
+    "module": "utils",
+    "function": "generate_hash",
+    "line": 132
+  },
+  {
+    "timestamp": "2025-05-08 04:00:11",
+    "level": "INFO",
+    "message": "Changes detected on https://example.com/page1",
+    "module": "monitor",
+    "function": "monitor_url",
+    "line": 165
+  },
+  {
+    "timestamp": "2025-05-08 04:00:15",
+    "level": "DEBUG",
+    "message": "Screenshot saved to reports/20250508/PICTURE/screenshot_20250508040015.png",
+    "module": "screenshot",
+    "function": "take_screenshot_async",
+    "line": 42
+  },
+  {
+    "timestamp": "2025-05-08 04:00:20",
+    "level": "INFO",
+    "message": "Email notification sent for https://example.com/page1 to 2 recipients",
+    "module": "notifier",
+    "function": "send_email_notification",
+    "line": 95
+  },
+  {
+    "timestamp": "2025-05-08 04:00:30",
+    "level": "INFO",
+    "message": "Monitoring URL: https://example.com/page2",
+    "module": "monitor",
+    "function": "monitor_url",
+    "line": 150
+  },
+  {
+    "timestamp": "2025-05-08 04:00:35",
+    "level": "DEBUG",
+    "message": "No changes detected",
+    "module": "utils",
+    "function": "detect_changes",
+    "line": 142
+  },
+  {
+    "timestamp": "2025-05-08 04:00:45",
+    "level": "INFO",
+    "message": "Monitoring result saved to reports/20250508/CSV/report_20250508040045.csv",
+    "module": "monitor",
+    "function": "save_monitoring_result",
+    "line": 111
+  },
+  {
+    "timestamp": "2025-05-08 04:00:50",
+    "level": "DEBUG",
+    "message": "Changes timeline saved to reports/20250508/PICTURE/timeline_20250508040050.png",
+    "module": "visualizer",
+    "function": "create_changes_timeline",
+    "line": 97
+  },
+  {
+    "timestamp": "2025-05-08 04:00:55",
+    "level": "DEBUG",
+    "message": "URL changes chart saved to reports/20250508/PICTURE/url_changes_20250508040055.png",
+    "module": "visualizer",
+    "function": "create_url_changes_chart",
+    "line": 140
+  },
+  {
+    "timestamp": "2025-05-08 04:01:00",
+    "level": "INFO",
+    "message": "Monitoring completed",
+    "module": "monitor",
+    "function": "run_monitoring",
+    "line": 222
+  }
+]

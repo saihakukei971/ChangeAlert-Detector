@@ -1,0 +1,29 @@
+{
+    "monitoring": {
+      "interval": "5",
+      "start_date": "2025-05-01",
+      "end_date": "2025-12-31"
+    },
+    "notifications": {
+      "email": true,
+      "slack": false,
+      "diff_only": true,
+      "recipients": ["admin@example.com"]
+    },
+    "screenshot": {
+      "enabled": true,
+      "format": "png",
+      "width": 1280,
+      "height": 800
+    },
+    "log": {
+      "level": "DEBUG",
+      "retention_days": 30,
+      "json_format": true
+    },
+    "report": {
+      "csv_enabled": true,
+      "visualization_enabled": true,
+      "chart_type": "line"
+    }
+  }
