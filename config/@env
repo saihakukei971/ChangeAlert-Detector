@@ -7,7 +7,7 @@ EMAIL_FROM=your-email@gmail.com
 EMAIL_RECIPIENTS=admin@example.com,manager@example.com
 
 # Slack設定
-SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
+SLACK_WEBHOOK_URL=https://～○○/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
 SLACK_CHANNEL=#website-monitoring
 SLACK_USERNAME=WebMonitor Bot
 
