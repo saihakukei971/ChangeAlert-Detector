@@ -19,7 +19,7 @@ ChangeAlert-Detector/
 ├── config/
 │   ├── settings.json            # 設定ファイル（監視間隔、開始日、終了日など）
 │   ├── urls.csv                 # 監視対象URLリスト（CSV）
-│   └── @env                     # 環境変数ファイル（SMTP設定など - 使用時に@を.に変更）
+│   └──.env                     # 環境変数ファイル（SMTP設定など - 使用時に@を.に変更）
 │
 ├── reports/
 │   ├── 20250508/                # 日付別フォルダ
